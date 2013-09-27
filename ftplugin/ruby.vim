@@ -1,10 +1,5 @@
-set list
-
-setlocal expandtab
-
-setlocal tabstop<
-setlocal softtabstop=2
-setlocal shiftwidth=2
+setlocal ts=2 sts=2 sw=2
+set expandtab
 
 function! s:remove_dust()
 
