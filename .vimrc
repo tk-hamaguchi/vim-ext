@@ -1,16 +1,22 @@
-" Vundle
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle
+
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" Vundle本体
-Bundle 'sgur/vundle'
+Bundle 'gmarik/vundle'
 
-" 利用中のプラグインをBundle
+
 Bundle 'vim-coffee-script'
-
-Bundle 'ext'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tk-hamaguchi/vim-ext'
+Bundle 'Keithbsmiley/rspec.vim'
+Bundle 'mklabs/vim-backbone'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'maven-plugin'
 
 
 filetype plugin indent on
+
+set backspace=start,eol,indent
+syntax on
